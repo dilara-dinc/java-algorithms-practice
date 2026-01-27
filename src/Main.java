@@ -1,12 +1,13 @@
 import searching.LinearSearch;
 import sorting.BubbleSort;
+import sorting.SelectionSort;
 
 public class Main {
     public static void main(String[] args) {
 
         int[] numbers = {5, 2, 9, 1, 3};
 
-        BubbleSort.sort(numbers);
+        SelectionSort.sort(numbers);
 
         System.out.print("Sorted array: ");
         for (int num : numbers) {
