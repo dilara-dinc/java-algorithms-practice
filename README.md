@@ -5,6 +5,7 @@ This repository contains Java implementations of fundamental algorithms and data
 ## Included Algorithms
 - Linear Search
 - Bubble Sort
+- Selection Sort
 
 ## Author
 Dilara Dinç  
