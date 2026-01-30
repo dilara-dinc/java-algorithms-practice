@@ -1,5 +1,4 @@
-import searching.LinearSearch;
-import sorting.BubbleSort;
+import searching.BinarySearch;
 import sorting.SelectionSort;
 
 public class Main {
@@ -9,12 +8,8 @@ public class Main {
 
         SelectionSort.sort(numbers);
 
-        System.out.print("Sorted array: ");
-        for (int num : numbers) {
-            System.out.print(num + " ");
-        }
+        int index = BinarySearch.search(numbers, 9);
 
-        int index = LinearSearch.search(numbers, 9);
-        System.out.println("\nIndex of 9: " + index);
+        System.out.println("Index of 9: " + index);
     }
 }
